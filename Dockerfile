@@ -1,5 +1,5 @@
 # Stage 1: Build the website
-FROM node:lts-alpine AS build
+FROM node:12.14.1-alpine AS build
 
 ARG PALANTIR_VERSION=0.9.0
 
@@ -22,7 +22,7 @@ RUN npm ci; \
   npm run build
 
 # Stage 2: Install the cli & server
-FROM node:lts-alpine
+FROM node:12.14.1-alpine
 
 ENV SERVER_PORT=80
 ENV SERVER_STATICS=/palantir
