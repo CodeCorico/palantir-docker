@@ -43,7 +43,7 @@ COPY --from=build /app-src /app
 COPY --from=build /app/dist /app/dist
 
 # Install the production deps and install the cli as global
-RUN npm i --production; \
+RUN npm ci --only=production; \
   npm pack; \
   npm i -g palantir-*.tgz; \
   rm palantir-*.tgz
