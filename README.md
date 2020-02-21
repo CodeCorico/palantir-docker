@@ -1,6 +1,6 @@
 # Supported tags and respective `Dockerfile` links
 
--	[`0.10.0`, `beta`, `latest` (*Dockerfile*)](https://github.com/CodeCorico/palantir-docker/blob/v0.10.0/Dockerfile)
+-	[`0.10.1`, `beta`, `latest` (*Dockerfile*)](https://github.com/CodeCorico/palantir-docker/blob/v0.10.1/Dockerfile)
 -	[`0.9.0` (*Dockerfile*)](https://github.com/CodeCorico/palantir-docker/blob/v0.9.0/Dockerfile)
 -	[`0.8.0` (*Dockerfile*)](https://github.com/CodeCorico/palantir-docker/blob/v0.8.0/Dockerfile)
 -	[`0.7.0` (*Dockerfile*)](https://github.com/CodeCorico/palantir-docker/blob/v0.7.0/Dockerfile)
