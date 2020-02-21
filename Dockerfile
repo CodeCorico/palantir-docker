@@ -4,7 +4,11 @@ FROM node:12.14.1-alpine AS build
 ARG PALANTIR_VERSION=0.10.0
 
 # Install bins needed
-RUN apk add --no-cache curl
+RUN apk add --no-cache \
+  curl \
+  python \
+  make \
+  g++
 
 RUN mkdir /app; \
   mkdir /app-src
