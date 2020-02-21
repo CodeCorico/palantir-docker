@@ -1,7 +1,7 @@
 # Stage 1: Build the website
 FROM node:12.14.1-alpine AS build
 
-ARG PALANTIR_VERSION=0.9.0
+ARG PALANTIR_VERSION=0.10.0
 
 # Install bins needed
 RUN apk add --no-cache curl
