@@ -30,6 +30,7 @@ FROM node:12.14.1-alpine
 
 ENV SERVER_PORT=80
 ENV SERVER_STATICS=/palantir
+ENV PALANTIR_FILE=/palantir/palantir.json
 
 RUN mkdir /app; \
   mkdir /palantir
